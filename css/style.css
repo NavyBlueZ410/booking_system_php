@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button, input{
+    padding: 0.5rem 1rem;
+}
+.content-form{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    border: 0.5px solid #3e3e3e;
+    padding: 1rem;
+    width: 250px;
+    margin-top: 1rem;
+}
+.form h1{
+    text-align: center;
+}
+.form a{
+    display: block;
+    text-align: end;
+}
+.content-logout{
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+}
+.content-title{
+    text-align: center;
+}
+.container{
+    padding: 1rem;
+}

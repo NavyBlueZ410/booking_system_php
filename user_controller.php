@@ -43,4 +43,13 @@
             return false;
         }       
     }
+
+    function deleteUser($id_user){
+        try{
+
+        }catch(PDOException $e){
+            echo $e->getMessage();
+            return false;
+        }
+    }
 ?>
